@@ -1,0 +1,5 @@
+Options All -Indexes
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !public/
+RewriteRule ^ public/index.php [L]

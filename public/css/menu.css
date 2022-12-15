@@ -1,0 +1,82 @@
+#menu {
+  position: absolute;
+  width: 270px;
+  bottom: 0px;
+  right: 0px;
+  top: 0px;
+  color: #999;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #f6f6f6;
+}
+
+#menu .box {
+  padding-bottom: 20px;
+}
+
+#menu .list {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#menu .top {
+  padding: 13px 15px;
+  border-bottom: 1px solid #eee;
+  height: 74px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#menu .title {
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #999;
+  padding: 20px 20px 15px 20px;
+  border-top: 1px solid #eee;
+  border-bottom: none;
+}
+
+#menu .li > .text {
+  margin-right: 40px;
+}
+
+#menu .li {
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  display: block;
+  font-weight: normal;
+  color: #555;
+  padding: 10px 10px 10px 48px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#menu .top .name {
+  font-size: 22px;
+  font-weight: 300;
+  color: #111;
+}
+
+#menu .li .icon {
+    position: absolute;
+    color: #aaa;
+    top: 9px;
+    left: 20px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#menu .li:hover {
+  background-color: white;
+}
+
+#menu .li.active {
+  color: #4CAF50;
+  font-weight: bold;
+}
+#menu .li.active .icon {
+  color: #4CAF50;
+}

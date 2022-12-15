@@ -1,0 +1,14 @@
+version: '3.0'
+
+services:
+  db:
+    image: mariadb
+    restart: always
+    network_mode: host
+    environment:
+      - MARIADB_USER=root
+      - MARIADB_ROOT_PASSWORD=123456
+      - MARIADB_DATABASE=starter
+
+volumes:
+  db:

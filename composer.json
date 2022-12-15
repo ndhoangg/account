@@ -1,0 +1,15 @@
+{
+    "name": "haitq/my-starter",
+    "autoload": {
+        "psr-4": {
+            "starter\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tran Quang Hai",
+            "email": "hai.tran@base.vn"
+        }
+    ],
+    "require": {}
+}

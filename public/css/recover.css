@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke: 0.0px;
+    text-rendering: geometricPrecision;
+}
+
+head {
+    display: none;
+}
+
+body {
+    /* font-family: 'Roboto', 'Segoe UI', sans-serif; */
+}
+.submit {
+   background-color: #2bd14e; 
+   font-size: 14px;
+   font-weight: bold;
+   color: #fff;
+   text-align: center;
+   padding: 11px 25px;
+   border-radius: 3px;
+   /* margin-top: 40px; */
+   outline: 0;
+   border: 0;
+   width: 100%;
+}
+.welcome {
+    text-align: center;
+}
+.right-side {
+    position: absolute;
+    left: 600px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    content: "";
+    background-image: url(https://static-gcdn.basecdn.net/account/image/background.png);
+    background-position: right bottom;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+.logo {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.form {
+    padding: 30px 0;
+}
+.text-form {
+    padding: 5px;
+    font-size: 16px;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+}
+.register-wrapper {
+    max-width: 550px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.label {
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.checkbox {
+    font-size: 13px;
+    color: #888;
+    left: 0px;
+    top: 0px;
+}
+.checkbox input {
+    vertical-align: -2px;
+}
+.welcome h1 {
+    font-size: 24px;
+    padding: 15px 0px 8px 0px;
+    margin: 0;
+}
+.welcome div {
+    color: #888;
+    font-size: 14px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+.row {
+    padding-bottom: 20px;
+}
+#auth {
+    width: 600px;
+}

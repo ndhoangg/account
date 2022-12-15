@@ -1,0 +1,23 @@
+CREATE TABLE if not exists user_data (
+    id int NOT NULL AUTO_INCREMENT,
+    first_name varchar(63),
+    last_name varchar(63),
+    email varchar(127),
+    password varchar(255),
+    username varchar(255),
+    phone_number varchar(15),
+    job_title varchar(255),
+    profile_image varchar(255),
+    address varchar(255),
+    birthdate date,
+    primary key (id)
+);
+
+CREATE TABLE if not exists manage_staff (
+    id int NOT NULL AUTO_INCREMENT,
+    manager_id int,
+    staff_id int,
+    FOREIGN KEY (manager_id) REFERENCES user_data(id),
+    FOREIGN KEY (staff_id) REFERENCES user_data(id),
+    primary key (id)
+)
